@@ -8,8 +8,14 @@ const bottols={
     price:222,
 }
 for(const bottol in bottols){
-    console.log(bottol,bottols[bottol])
+    // console.log(bottol,bottols[bottol])
 }
+// boject.keys using acces object
+const keys=Object.keys(bottols);
+for(const key of keys){
+    console.log(key,bottols[key])
+}
+
 // using array
 const friends=['sakib','rakib','sanu']
 for(const friend of friends){
