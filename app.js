@@ -8,7 +8,7 @@ const bottols={
     price:222,
 }
 for(const bottol in bottols){
-    // console.log(bottol)
+    console.log(bottol,bottols[bottol])
 }
 // using array
 const friends=['sakib','rakib','sanu']
