@@ -13,8 +13,14 @@ for(const bottol in bottols){
 // boject.keys using acces object
 const keys=Object.keys(bottols);
 for(const key of keys){
-    console.log(key,bottols[key])
+    // console.log(key,bottols[key])
 }
+// entries usnig a object
+const bottolValu=Object.entries(bottols)
+for(const [key,value] of bottolValu){
+    console.log(key,value)
+}
+// console.log(bottolValu)
 
 // using array
 const friends=['sakib','rakib','sanu']
